@@ -18,7 +18,7 @@ export default class Page extends React.Component {
                 <section className="page">
                     <header className="hero">
                         <div className="copy">
-                            <h1>{title}</h1>
+                            <h1>pepe</h1>
                             {subtitle && <h3>{htmlToReact(subtitle)}</h3>}
                         </div>
                     </header>
