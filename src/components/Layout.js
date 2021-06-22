@@ -53,6 +53,7 @@ export default class Body extends React.Component {
                     {favicon && <link rel="icon" href={withPrefix(favicon)} />}
                 </Helmet>
                 <div className="wrapper">
+                    <Presentation
                     <Header page={page} config={config} />
                     <div className="container">
                         {this.props.children}
