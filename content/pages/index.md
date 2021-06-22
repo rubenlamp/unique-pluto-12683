@@ -72,7 +72,7 @@ seo:
       value: RubenLAM Portfolio
       keyName: property
     - name: 'og:description'
-      value: The preview of the Vanilla theme
+      value: RubenLAM website
       keyName: property
     - name: 'og:image'
       value: images/vanilla-preview.png
