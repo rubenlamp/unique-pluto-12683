@@ -5,7 +5,7 @@ import Layout from './Layout';
 import SectionContent from './SectionContent';
 import SectionHero from './SectionHero';
 import SectionPosts from './SectionPosts';
-
+import Presentation from './Presentation';
 export {
     Action,
     Footer,
