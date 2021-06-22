@@ -15,7 +15,8 @@ export default class SectionHero extends React.Component {
         const imageAlt = _.get(section, 'image_alt', '');
         const title = _.get(section, 'title');
         const subtitle = _.get(section, 'subtitle');
-        return (
+        return ({
+
             <section id={sectionId} className="hero">
                 {(image || avatar) && <img src={image ? withPrefix(image) : withPrefix(avatar)} alt={image ? imageAlt : avatarAlt} />}
                 <div className="copy">
@@ -24,6 +25,7 @@ export default class SectionHero extends React.Component {
                 </div>
             </section>
             <h2></h2>
+        }
         );
     }
 }
