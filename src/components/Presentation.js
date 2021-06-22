@@ -5,16 +5,18 @@ import { Link, withPrefix, classNames, getPageUrl } from '../utils';
 import Action from './Action';
 
 export default class Presentation extends React.Component {
-    renderNavLinks(navLinks, pageUrl) {
-        return (
+    //renderNavLinks(navLinks, pageUrl) {
+      //  return (
             
-        );
-    }
+      //  );
+    //}
 
     render() {
        
         return (
-           
+            <section>
+                <h1>Hola </h1>
+            </section>
         );
     }
 }
