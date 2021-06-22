@@ -23,7 +23,7 @@ export default class SectionHero extends React.Component {
                     {subtitle && <div>{markdownify(subtitle)}</div>}
                 </div>
             </section>
-            <section></section>
+            <h2></section>
         );
     }
 }
