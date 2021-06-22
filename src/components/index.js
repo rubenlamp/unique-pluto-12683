@@ -2,10 +2,10 @@ import Action from './Action';
 import Footer from './Footer';
 import Header from './Header';
 import Layout from './Layout';
+import Presentation from './Presentation';
 import SectionContent from './SectionContent';
 import SectionHero from './SectionHero';
 import SectionPosts from './SectionPosts';
-import Presentation from './Presentation';
 export {
     Action,
     Footer,
