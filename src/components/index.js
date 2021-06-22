@@ -11,6 +11,7 @@ export {
     Footer,
     Header,
     Layout,
+    Presentation,
     SectionContent,
     SectionHero,
     SectionPosts
@@ -21,6 +22,7 @@ export default {
     Footer,
     Header,
     Layout,
+    Presentation,
     SectionContent,
     SectionHero,
     SectionPosts
