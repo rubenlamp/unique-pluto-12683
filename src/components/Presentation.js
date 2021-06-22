@@ -20,19 +20,9 @@ export default class Header extends React.Component {
     }
 
     render() {
-        const page = _.get(this.props, 'page');
-        const pageUrl = _.trim(getPageUrl(page), '/');
-        const config = _.get(this.props, 'config');
-        const header = _.get(config, 'header');
-        const title = _.get(header, 'title');
-        const hasNav = _.get(header, 'has_nav');
-        const navLinks = _.get(header, 'nav_links');
-
+       
         return (
-            <header id="header" className="header container">
-                {title && <Link href={withPrefix('/')} className="logo">{title}</Link>}
-                {hasNav && !_.isEmpty(navLinks) && this.renderNavLinks(navLinks, pageUrl)}
-            </header>
+           
         );
     }
 }
