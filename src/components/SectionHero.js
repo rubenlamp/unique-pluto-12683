@@ -16,8 +16,8 @@ export default class SectionHero extends React.Component {
         const title = _.get(section, 'title');
         const subtitle = _.get(section, 'subtitle');
         return (
+            //Esta parte crea el hero
             <section id={sectionId} className="hero">
-                <img src='https://pbs.twimg.com/media/E1PtEgEVcAQaFBX?format=jpg&name=large'/>
                 {(image || avatar) && <img src={image ? withPrefix(image) : withPrefix(avatar)} alt={image ? imageAlt : avatarAlt} />}
                 <div className="copy">
                     {title && <h1>{title}</h1>}
