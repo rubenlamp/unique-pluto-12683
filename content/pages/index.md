@@ -1,6 +1,7 @@
 ---
 title: Home
 sections:
+    
   - section_id: hero
     type: section_hero
     title: This is a hero headline.
