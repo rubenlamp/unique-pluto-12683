@@ -1,7 +1,9 @@
 ---
 title: Home
 sections:
-    
+  - section_id: pepe
+    type: section_pepe
+    title: this is a pepe line.  
   - section_id: hero
     type: section_hero
     title: This is a hero headline.
