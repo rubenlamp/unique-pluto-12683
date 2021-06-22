@@ -79,7 +79,7 @@ seo:
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
-      value: summary_large_image
+      value: https://pbs.twimg.com/media/E4Yfuc3VoAMV5SI?format=jpg&name=small
     - name: 'twitter:title'
       value: Stackbit Vanilla Theme
     - name: 'twitter:description'
