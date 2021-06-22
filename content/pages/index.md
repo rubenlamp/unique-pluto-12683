@@ -63,7 +63,7 @@ sections:
       euismod nunc adipiscing lacinia erat ut sit. Arcu amet.
 seo:
   title: RubenLAM Concept artist
-  description: The preview of the Vanilla theme
+  description: RubenLAM's portfolio
   extra:
     - name: 'og:type'
       value: website
